@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Waseem — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Waseem 👋</h1>
+    <p>Aspiring Product Developer • CSE @ NIT AP</p>
+    <nav><a href="#about">About</a> · <a href="#projects">Projects</a> · <a href="#contact">Contact</a></nav>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Computer Science student learning HTML, CSS, JavaScript, and React. I build small projects and love shipping features.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>My personal site (HTML + CSS).</p>
+    </div>
+    <div class="project">
+      <h3>To-Do App</h3>
+      <p>Simple React to-do (localStorage).</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:mohammed012syed@gmail.com">mohammed012syed@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/your-username" target="_blank">github.com/your-username</a></p>
+  </section>
+
+  <footer>© <span id="year"></span> Waseem</footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
