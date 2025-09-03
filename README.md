@@ -1,13 +1,13 @@
 # Portfolio Website
 
 ## Description
-A personal portfolio website to showcase my skills, projects, and contact information. Built with HTML, CSS, and JavaScript.
+This is the personal portfolio website of SYED MOHAMMED WASEEM, a Computer Science Engineering student at NIT Andhra Pradesh. It showcases skills, projects, and contact information in a clean, modern design.
 
 ## Features
-- About Me section
+- Hero/About section
 - Skills showcase
-- Projects section with live demos
-- Contact form
+- Projects section with live demo and source code links
+- Contact information for recruiters
 
 ## Tech Stack
 - HTML
@@ -19,3 +19,4 @@ A personal portfolio website to showcase my skills, projects, and contact inform
 
 ## Source Code
 [GitHub Repo](https://github.com/syedmohammed098/portfolio-website)
+
