@@ -1,67 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Waseem — Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SYED MOHAMMED WASEEM | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Hi, I'm Waseem 👋</h1>
-    <p>Aspiring Product Developer • CSE @ NIT AP</p>
-    <nav><a href="#about">About</a> · <a href="#projects">Projects</a> · <a href="#contact">Contact</a></nav>
+
+  <!-- Hero / About Section -->
+  <header id="hero">
+    <div class="hero-container">
+      <h1>SYED MOHAMMED WASEEM</h1>
+      <p>A Computer Science Engineering student at NIT Andhra Pradesh, passionate about building web applications and learning cutting-edge technologies.</p>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About</h2>
-    <p>Computer Science student learning HTML, CSS, JavaScript, and React. I build small projects and love shipping features.</p>
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">JavaScript</span>
+      <span class="skill">Git & GitHub</span>
+      <span class="skill">Problem Solving</span>
+    </div>
   </section>
 
- <section id="projects">
-  <h2>Projects</h2>
-  <div class="projects-container">
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
 
-    <!-- Project 1: Portfolio Website -->
-    <div class="project-card">
-      <h3>Portfolio Website</h3>
-      <p>A personal portfolio website to showcase my skills, projects, and contact information. Built with HTML, CSS, and JavaScript.</p>
-      <a href="https://syedmohammed098.github.io/portfolio-website/" target="_blank">🌐 Live Demo</a>
-      <a href="https://github.com/syedmohammed098/portfolio-website" target="_blank">💻 Source Code</a>
+      <!-- Project 1: Portfolio Website -->
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website to showcase my skills, projects, and contact information. Built with HTML, CSS, and JavaScript.</p>
+        <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+        <a href="https://syedmohammed098.github.io/portfolio-website/" target="_blank">🌐 Live Demo</a>
+        <a href="https://github.com/syedmohammed098/portfolio-website" target="_blank">💻 Source Code</a>
+      </div>
+
+      <!-- Project 2: To-Do App -->
+      <div class="project-card">
+        <h3>To-Do App</h3>
+        <p>An interactive To-Do application to manage tasks. Add, edit, delete, and search tasks with data saved in localStorage.</p>
+        <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+        <a href="https://syedmohammed098.github.io/todo-app/" target="_blank">🌐 Live Demo</a>
+        <a href="https://github.com/syedmohammed098/todo-app" target="_blank">💻 Source Code</a>
+      </div>
+
+      <!-- Project 3: Weather App -->
+      <div class="project-card">
+        <h3>Weather App</h3>
+        <p>Fetches real-time weather data for any city using OpenWeatherMap API. Shows temperature, weather condition, and more.</p>
+        <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+        <a href="https://syedmohammed098.github.io/weather-app/" target="_blank">🌐 Live Demo</a>
+        <a href="https://github.com/syedmohammed098/weather-app" target="_blank">💻 Source Code</a>
+      </div>
+
     </div>
+  </section>
 
-    <!-- Project 2: To-Do App -->
-    <div class="project-card">
-      <h3>To-Do App</h3>
-      <p>An interactive To-Do application to manage tasks. Add, edit, delete, and search tasks with data saved in localStorage.</p>
-      <a href="https://syedmohammed098.github.io/todo-app/" target="_blank">🌐 Live Demo</a>
-      <a href="https://github.com/syedmohammed098/todo-app" target="_blank">💻 Source Code</a>
-    </div>
-
-    <!-- Project 3: Weather App -->
-    <div class="project-card">
-      <h3>Weather App</h3>
-      <p>Fetches real-time weather data for any city using OpenWeatherMap API. Shows temperature, weather condition, and more.</p>
-      <a href="https://syedmohammed098.github.io/weather-app/" target="_blank">🌐 Live Demo</a>
-      <a href="https://github.com/syedmohammed098/weather-app" target="_blank">💻 Source Code</a>
-    </div>
-
-  </div>
-</section>
-
-
+  <!-- Contact Section -->
   <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:mohammed012syed@gmail.com">mohammed012syed@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/your-username" target="_blank">github.com/your-username</a></p>
-  </section>
-
-  <footer>© <span id="year"></span> Waseem</footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
-
+    <h2>Contact Me</h2>
+    <p>Phone: <a
 
