@@ -1,4 +1,4 @@
-/* Reset some defaults */
+/* Reset defaults */
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@
 
 /* Hero Section */
 #hero {
-  background-color: #007bff;
+  background: linear-gradient(135deg, #007bff, #00c6ff);
   color: white;
   text-align: center;
   padding: 100px 20px;
@@ -23,6 +23,7 @@
   font-size: 1.2rem;
   max-width: 700px;
   margin: auto;
+  line-height: 1.6;
 }
 
 /* Skills Section */
@@ -139,4 +140,3 @@ footer a {
     align-items: center;
   }
 }
-
